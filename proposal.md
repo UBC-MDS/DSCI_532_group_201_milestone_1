@@ -1,4 +1,4 @@
-# Project Proposal: Natural Disasters and their impact across the world
+# Project Proposal: Natural Disasters And Their Impact Across The World
 
 ## Motivation and purpose
 
