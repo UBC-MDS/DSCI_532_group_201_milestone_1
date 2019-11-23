@@ -1,6 +1,6 @@
 # DSCI_532_group_201_milestone_1
 
-## Project Name
+## Natural Disasters and their impact across the world
 
 ## Sketch
 <html>
