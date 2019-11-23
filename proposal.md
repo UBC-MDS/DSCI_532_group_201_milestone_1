@@ -1,6 +1,6 @@
 # Project Proposal: Natural Disasters And Their Impact Across The World
 
-## Motivation and purpose
+## Motivation and Purpose
 
 Every year natural disasters kill many people across the world. Natural disasters are of various forms and different disasters create different challenges for mankind. As it is said "prevention is better than cure", if we have information about which disaster is most life-threatening, it will help us to be better prepared against that natural disaster. Studying the distribution of the disaster across the world will help us to identify the critical regions so that the government, as well as people of those regions, would be able to take preventive measures to minimize the loss of life.
 
