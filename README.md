@@ -23,7 +23,7 @@ Please read our full proposal [here](https://github.com/UBC-MDS/DSCI_532_group_2
 <html>
 
 ## Natural Disaster Dash App
-[Here]() is the link to the deployed app on Heroku.
+[Here](https://natural-disaster-milestone2.herokuapp.com) is the link to the deployed app on Heroku.
 
 ## Functionality of the Dash App
 
