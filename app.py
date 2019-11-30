@@ -19,7 +19,7 @@ app.layout = html.Div([
                 
                 }, className = 'row'),
 
-        html.H4('331M Deaths so far',
+        html.H4('341.55M Deaths so far',
                 style={
                 'font-family':'HelveticaNeue',
                 'font-size':'5',
