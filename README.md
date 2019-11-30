@@ -7,3 +7,9 @@ Suppose, Bob is working for an international humanitarian organization. He is tr
 <html>
   <img src = "images/sketch_v1.png" />
 <html>
+
+## Natural Disaster Dash App
+[Here]() is the link to the deployed app on Heroku.
+
+### Functionality of the Dash App
+The world map and associated line chart section provides impact of earthquake events at the global level from 1990 to 2017. When a year is selected by dragging the slider bar, log death rates for all countries are encoded on the map through a color scale where darker colours represent more severe events in that particular year. Death rate is calculated as annual number of deaths caused by earthquake divided by total number of deaths and log scale is used to properly display all levels of severity. A mouseover interaction is added to the world map so that users have the option to view the actual number of deaths instead of a relative death rate. When users click on a country of interest, the line graph should show the historical trend of death rates for that country. Users can take a look at the logged death rate for a year by hovering the mouse. By default, no country should be selected when there's no click seletion.
