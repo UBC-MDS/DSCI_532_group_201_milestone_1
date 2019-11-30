@@ -12,7 +12,16 @@ We will first be analyzing data for all natural disasters on a global scale from
 
 ## Research Questions to Explore
 
-There are many possible questions that can be answered with the dashboard. We can explore the total death count due to earthquakes type over a certain period of time. We can also use the visualization to explore what percentage of total death rate earthquakes contribute to for a given country and year. Lastly, we can compare different countries to see which one is most impacted by earthquakes for a given year.
+There are many possible questions that can be answered with the dashboard. We can explore the total death count due to earthquakes type over a certain period of time. We can also use the visualization to explore what percentage of total death rate earthquakes contribute to for a given country and year. Lastly, we can compare different countries to see which one is most impacted by earthquakes for a given year. With this information we are able to **help** answer:
+
+- Which country is most effected by earthquakes?
+- How many people of a given country has died from earhquakes?
+- What is the maximum number of people that have died from earthquakes for a given year in a given country?
+- Which countries are not effected by earthquakes?
+- What percentage of global death is due to earthquakes?
+- In which year did earthquakes contribute the highest percentage to global death?
+- What is the average number of deaths of year due to earthquakes for a given country?
+- How to prevent the next mass extinction?
 
 ## Usage Scenario
 
