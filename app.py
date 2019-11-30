@@ -32,51 +32,43 @@ app.layout = html.Div([
     
     
     html.Div([
-       html.Div([
             
-            html.Iframe(
+            html.Div([
+
+                 html.Iframe(
                    sandbox='allow-scripts',
                    id='plot_a',
-                   height = '500en',
-                   width = '500en',
-                   style={'border':'none'},
+                   height = '500',
+                   width = '100%',
+                   style={'border':'none', 'position':'relative'},
 
                    ################ The magic happens here
-                   srcDoc=open('charts/temp_plot_a.html').read()
+                   srcDoc=open('charts/world_combined_plots.html').read()
                    ################ The magic happens here
-                   ),
-                   
-            html.Iframe(
+                   ) 
+
+            ], className = 'row')
+
+      ], className = 'row'),
+
+    html.Div([
+            
+            html.Div([
+
+                 html.Iframe(
                    sandbox='allow-scripts',
                    id='plot_b',
-                   height = '500en',
-                   width = '500en',
-                   style={'border':'none'},
+                   style={'border':'none', 'position':'absolute', 'width':'100%', 'height':'100%'},
 
                    ################ The magic happens here
-                   srcDoc=open('charts/temp_plot_b.html').read()
+                   srcDoc=open('charts/world_map_line.html').read()
                    ################ The magic happens here
-                                   ),
+                   )
+
+            ], className = 'row')
+
       ], className = 'row'),
-            ], className = 'container'),
     
-    
-    
-    html.Div([
-      html.Div([
-            
-            html.Iframe(
-                     sandbox='allow-scripts',
-                     id='plot_c',
-                     style={'border':'none', 'position':'absolute', 'width':'100%', 'height':'100%'},
-
-                     ################ The magic happens here
-                     srcDoc=open('charts/world_map_line.html').read()
-                     ################ The magic happens here
-                     ),
-      ], className = 'row')
-    
-    ], className = 'container')
 
 ], id = 'main', className = 'container', style = {'margin-left':'15%'})
 
