@@ -4,11 +4,9 @@
 ## Background and Description
 <br>
 Life on Earth has been wiped out 5 times as we know today. The most recent of which being the Cretaceous–Paleogene extinction, about 66 million years ago. However, one general theme appears to be related to the cause of all 5 extinctions - natural diasters. This pattern continues to exhibit itself with the introduction of mankind.
-<br>
-<br>
-Since the beginnings of human recorded history, one aspect of life of people around the world has never changed - the danger of natural disasters. Although, the probability of dying to certain types of natural disasters have changed over time with the advent of science and technology, they still make up for a significant percentage of annual deaths even in the 21st century. As a matter of fact, natural diasters have almost wiped out human race twice, with the most recent being [the 4.2 kiloyear event](https://en.wikipedia.org/wiki/4.2_kiloyear_event), which is essentially a century long drought that wiped out ancient civilizations in present day Eygpt, Iran and China.
-<br>
-<br>
+
+Since the beginnings of human recorded history, one aspect of life of people around the world has never changed - the danger of natural disasters. Although, the probability of dying to certain types of natural disasters have changed over time with the advent of science and technology, they still make up for a significant percentage of annual deaths even in the 21st century. As a matter of fact, natural diasters have almost wiped out human race twice, with the most recent being [the 4.2 kiloyear event](https://en.wikipedia.org/wiki/4.2_kiloyear_event) , which is essentially a century long drought that wiped out ancient civilizations in present day Eygpt, Iran and China.
+
 In order to tackle this problem, and to minimize the negative effects of such natural disasters, we have decided to create this Dash application. This application aims at helping scientists to analyze past natural diaster and play in a role to prevent future diasters. 
 <br>
 <br>
