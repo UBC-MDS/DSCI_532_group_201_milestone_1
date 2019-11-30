@@ -14,14 +14,17 @@ app.layout = html.Div([
     html.Div([
         html.H1('Impact of Disasters on Human Lives',
                 style={'font-family':'Helvetica',
-                'color':'darkblue'
+                'color':'darkblue',
+                
                 
                 }, className = 'row'),
-        html.H3('331M Deaths',
+
+        html.H4('331M Deaths so far',
                 style={
-                'font-family':'Helvetica',
+                'font-family':'HelveticaNeue',
                 'font-size':'5',
                 'color':'red',
+                
                 
                  }, className = 'row'),
     ], className = 'row'),
@@ -38,7 +41,7 @@ app.layout = html.Div([
                    style={'border':'none'},
 
                    ################ The magic happens here
-                   srcDoc=open('plot_a.html').read()
+                   srcDoc=open('charts/temp_plot_a.html').read()
                    ################ The magic happens here
                    ),
                    
@@ -50,7 +53,7 @@ app.layout = html.Div([
                    style={'border':'none'},
 
                    ################ The magic happens here
-                   srcDoc=open('plot_b.html').read()
+                   srcDoc=open('charts/temp_plot_b.html').read()
                    ################ The magic happens here
                                    ),
       ], className = 'row'),
@@ -64,17 +67,17 @@ app.layout = html.Div([
             html.Iframe(
                      sandbox='allow-scripts',
                      id='plot_c',
-                     style={'border':'none', 'position':'absolute', 'width':'50%', 'height':'100%'},
+                     style={'border':'none', 'position':'absolute', 'width':'100%', 'height':'100%'},
 
                      ################ The magic happens here
-                     srcDoc=open('plot_c.html').read()
+                     srcDoc=open('charts/world_map_line.html').read()
                      ################ The magic happens here
                      ),
       ], className = 'row')
     
     ], className = 'container')
 
-], id = 'main', style = {'margin-left':'10%', 'margin-right':'10%'}, className = 'container')
+], id = 'main', className = 'container', style = {'margin-left':'15%'})
 
 
 
