@@ -4,6 +4,7 @@ import dash_html_components as html
 
 
 app = dash.Dash()
+server = app.server
 app.title = 'Natural Disaster'
 
 # Boostrap CSS.
