@@ -41,3 +41,8 @@
 - Issue #4: Death rate at country level is going beyond 1(needs to be less than 1)
   - sgauravm posted issue
   - Issue resolved
+- Issue #8: TA issue:
+  - Rewrote the README.md description
+  - Paragraph outlining major features and interactivity added.
+  - Modified team contract as per suggestion
+  - Wrote specific research question in point form
