@@ -48,7 +48,7 @@
   - Wrote specific research question in point form
 - Issue [#31](https://github.com/UBC-MDS/DSCI_532_group_201_natural_disasters/issues/31): Summary of peer feedbacks
   - Reflecting on a few comments regarding possible implementations to the map and associated line graph
-  - 2. Log-scaled y-axis instead of log-scaling the data which is harder to interpret for users
-  - 3. Colour legend for the map did not seem necessary so was taken out
-  - 4. The '_' could not be removed as it's a default when using geo-pandas dataframe in altair
-  - 8. Font sizes for x,y-axis titles and main titles changed and tick marks for the years rotated for better readability 
+  - (2) Log-scaled y-axis instead of log-scaling the data which is harder to interpret for users
+  - (3) Colour legend for the map did not seem necessary so was taken out
+  - (4) The '_' could not be removed as it's a default when using geo-pandas dataframe in altair
+  - (8) Font sizes for x,y-axis titles and main titles changed and tick marks for the years rotated for better readability 
