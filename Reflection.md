@@ -65,6 +65,7 @@ Overall strategy:
 
 - Changed axis for bottom plot to log axis (fixed over multiple commits, please look into commit history if you're interested):
   - Justification: We wanted to bring more meaning to the axis of the plot. The old one was confusing since no one thinks in a log numbers. So we converted the numbers back to decimal while keeping the log scale.
+  - [Issue Link](https://github.com/UBC-MDS/DSCI_532_group_201_natural_disasters/issues/30)
 
 - Added data source and contributing authors (fixed over multiple commits, please look into commit history if you're interested):
   - Justification: We realized that it was important for the reader to know where the data is coming from, so we added the data source. We also realized that it was important for the reader to know who made this glorious app, so we all added our names to the bottom of this page. This is especially important with the high traffic that this app is going to receive.
@@ -72,13 +73,7 @@ Overall strategy:
 
 - Updated plot titles (fixed over multiple commits, please look into commit history if you're interested):
   - Justification: We realized that although the existing titles were OK, we wanted even BETTER titles. We brainstormed for hours of better titles that will spark divine intuition upon the reader. Take a look for yourself.
-
-- Issue [#31](https://github.com/UBC-MDS/DSCI_532_group_201_natural_disasters/issues/31): Summary of peer feedbacks
-  - Reflecting on a few comments regarding possible implementations to the map and associated line graph
-  - (2) Log-scaled y-axis instead of log-scaling the data which is harder to interpret for users
-  - (3) Colour legend for the map did not seem necessary so was taken out
-  - (4) The '_' could not be removed as it's a default when using geo-pandas dataframe in altair
-  - (8) Font sizes for x,y-axis titles and main titles changed and tick marks for the years rotated for better readability 
+  - [Issue Link](https://github.com/UBC-MDS/DSCI_532_group_201_natural_disasters/issues/27)
 
 
 OUR WISH LIST:
