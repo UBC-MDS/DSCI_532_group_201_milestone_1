@@ -57,6 +57,7 @@ Overall strategy:
 
 - Fix font size (fixed over multiple commits, please look into commit history if you're interested):
   - Justification: This is the highest because the old font was not readable and also takes the least time to do.
+  - [Issue Link](https://github.com/UBC-MDS/DSCI_532_group_201_natural_disasters/issues/27)
 
 - Fix description (fixed over multiple commits, please look into commit history if you're interested):
   - Justification: We realized that people don't know what is going on in our app, so we added the description to help what each plot does.
