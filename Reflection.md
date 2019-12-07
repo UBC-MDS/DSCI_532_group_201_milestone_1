@@ -41,14 +41,58 @@
 - Issue #4: Death rate at country level is going beyond 1(needs to be less than 1)
   - sgauravm posted issue
   - Issue resolved
-- Issue #8: TA issue:
+- Issue #8: TA comments:
   - Rewrote the README.md description
   - Paragraph outlining major features and interactivity added.
   - Modified team contract as per suggestion
   - Wrote specific research question in point form
+
+
+## New Updates After Milestone 2:
+
+###  High-Level summary of changes made (priority ordering from high to low):
+
+Overall strategy:
+  - We in order to spend the limited number of hours before the clock ticks 18:00 on Saturday, we decided that it was best to implement changes that were most obvious visually first. We want to first focus on implementing visual changes since they require the least time and will produce the best results for the reader. We will save technical changes for later since they require a lot of time and our ADHD readers might not even see them.
+
+- Fix font size (fixed over multiple commits, please look into commit history if you're interested):
+  - Justification: This is the highest because the old font was not readable and also takes the least time to do.
+
+- Fix description (fixed over multiple commits, please look into commit history if you're interested):
+  - Justification: We realized that people don't know what is going on in our app, so we added the description to help what each plot does.
+
+- Changed axis for bottom plot to log axis (fixed over multiple commits, please look into commit history if you're interested):
+  - Justification: We wanted to bring more meaning to the axis of the plot. The old one was confusing since no one thinks in a log numbers. So we converted the numbers back to decimal while keeping the log scale.
+
+- Added data source and contributing authors (fixed over multiple commits, please look into commit history if you're interested):
+  - Justification: We realized that it was important for the reader to know where the data is coming from, so we added the data source. We also realized that it was important for the reader to know who made this glorious app, so we all added our names to the bottom of this page. This is especially important with the high traffic that this app is going to receive.
+
+- Updated plot titles (fixed over multiple commits, please look into commit history if you're interested):
+  - Justification: We realized that although the existing titles were OK, we wanted even BETTER titles. We brainstormed for hours of better titles that will spark divine intuition upon the reader. Take a look for yourself.
+
 - Issue [#31](https://github.com/UBC-MDS/DSCI_532_group_201_natural_disasters/issues/31): Summary of peer feedbacks
   - Reflecting on a few comments regarding possible implementations to the map and associated line graph
   - (2) Log-scaled y-axis instead of log-scaling the data which is harder to interpret for users
   - (3) Colour legend for the map did not seem necessary so was taken out
   - (4) The '_' could not be removed as it's a default when using geo-pandas dataframe in altair
   - (8) Font sizes for x,y-axis titles and main titles changed and tick marks for the years rotated for better readability 
+
+
+OUR WISH LIST:
+- If we had ALL the time in the world, there are (in no specific order):
+  - Adding a colourful but yet not distracting background to the app, this might help to make our app look more visually pleasing. 
+- Find a way to set a default year and country for our app.
+- Rename the slider label
+- Use a different world map with outlines for countries, this makes the app look prettier.
+
+
+High-level summary of the feedback:
+- Overall impression: People were ecstatic when they saw our app, who doesn't want to see the impact of earthquakes on countries right?
+- Issues brought up: most of the issues brought up were regarding visuals. A lot of them were regarding the same thing. Some issues were technical, but most were regarding the scale of the bottom chart.
+
+Reflection on the usefulness of the feedback you received:
+- Usability of the app: My peers used the app like it was intended. Keeping it simple worked in our favour. 
+- The things we heard were similar across reviewers. The theme is regarding better visuals.
+- Things in our Wishlist were things that we could not change because we did not have enough time. However some are because the Altair package is straight garbage, I mean, even the instructors don't use it for making plots in their lectures. I wonder why.
+- By being a 'fly-on-the-wall' I was able to see the psychological strain on the people I was paired with. I was able to learn what the expression of a person who is forced to understand something that they have no innate desire to know looks like. Useful? Just about as useful as writing this reflection document.
+- The reflections did yield a better app. That's for sure. Did we have to go through the pain in order to achieve it? Probably not.
